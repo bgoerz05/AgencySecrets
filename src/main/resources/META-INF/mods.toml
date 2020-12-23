@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+showAsResourcePack=false
+[[mods]]
+      modId="agencySecrets"
+      version="0.1"
+      displayName="Agency Secrets"
+      authors="AgentMCB"
+      description='''
+            A handful of features that The Agency has kept secret from the unaware Minecraft multiverse that have now been declassified
+            '''
+
+      [[dependencies.agencySecrets]]
+        modId="forge"
+        mandatory=true
+        versionRange="[35,)"
+        ordering="NONE"
+        side="BOTH"
+
+      [[dependencies.agencySecrets]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.16.4]"
+        ordering="NONE"
+        side="BOTH"
