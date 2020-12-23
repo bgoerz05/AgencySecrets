@@ -18,5 +18,6 @@ public class RegistryHandler {
     }
 
     public static final RegistryObject<Item> LUNITESHARD = ITEMS.register("lunite_shard", ItemBase::new);
+    public static final RegistryObject<Item> LUNITE_DISK = ITEMS.register("lunite_disk", ItemBase::new);
 
 }
