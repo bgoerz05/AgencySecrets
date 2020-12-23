@@ -36,7 +36,7 @@ public class AgencySecrets {
     public static final ItemGroup TAB = new ItemGroup("secretsTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.LUNITESHARD.get());
+            return new ItemStack(RegistryHandler.LUNITE_SHARD.get());
         }
     };
 
