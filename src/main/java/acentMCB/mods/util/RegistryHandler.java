@@ -3,6 +3,7 @@ package acentMCB.mods.util;
 import acentMCB.mods.AgencySecrets;
 import acentMCB.mods.block.BlockItemBase;
 import acentMCB.mods.block.LuniteBlock;
+import acentMCB.mods.block.LuniteOre;
 import acentMCB.mods.item.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -29,9 +30,11 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> LUNITE_BLOCK = BLOCKS.register("lunite_block", LuniteBlock::new);
+    public static final RegistryObject<Block> LUNITE_ORE = BLOCKS.register("lunite_ore", LuniteOre::new);
 
     //BlockItems
     public static final RegistryObject<Item> LUNITE_BLOCK_ITEM = ITEMS.register("lunite_block", () -> new BlockItemBase(LUNITE_BLOCK.get()));
+    public static final RegistryObject<Item> LUNITE_ORE_ITEM = ITEMS.register("lunite_ore", () -> new BlockItemBase(LUNITE_ORE.get()));
 
 
 }
