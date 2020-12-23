@@ -1,3 +1,4 @@
 {
-  "item.agencysecrets.lunite_shard": "Lunite Shard"
+  "item.agencysecrets.lunite_shard": "Lunite Shard",
+  "itemGroup.secretsTab": "Agency Secrets"
 }
