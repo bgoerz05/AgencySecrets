@@ -2,5 +2,6 @@
   "item.agencysecrets.lunite_shard": "Lunite Shard",
   "block.agencysecrets.lunite_block": "Block of Lunite",
   "block.agencysecrets.lunite_ore": "Lunite Ore",
+  "item.agencysecrets.lunite_disk": "Lunite Disk",
   "itemGroup.secretsTab": "Agency Secrets"
 }

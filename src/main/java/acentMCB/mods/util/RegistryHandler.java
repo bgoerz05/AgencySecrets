@@ -36,5 +36,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> LUNITE_BLOCK_ITEM = ITEMS.register("lunite_block", () -> new BlockItemBase(LUNITE_BLOCK.get()));
     public static final RegistryObject<Item> LUNITE_ORE_ITEM = ITEMS.register("lunite_ore", () -> new BlockItemBase(LUNITE_ORE.get()));
 
+    public static final RegistryObject<Item> LUNITESHARD = ITEMS.register("lunite_shard", ItemBase::new);
+    public static final RegistryObject<Item> LUNITE_DISK = ITEMS.register("lunite_disk", ItemBase::new);
 
 }
